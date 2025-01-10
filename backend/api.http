@@ -1,0 +1,82 @@
+POST http://localhost:9090/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "n",
+    "username": "n",
+    "password": "n",
+    "email": "n"
+}
+
+###
+POST http://localhost:9090/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "password":"aman",
+    "email":"aman@gmail.com"
+}
+
+###
+GET http://localhost:9090/get_user_and_profile HTTP/1.1
+Content-Type: application/json
+
+{
+      "token": "7d38fd3d50c981ef69b628735b6ae93adeed98a9861833bc3c7a3da981d9c90f"
+}
+###
+POST http://localhost:9090/update_profile_data HTTP/1.1
+Content-Type: application/json
+
+{
+  "token":"7d38fd3d50c981ef69b628735b6ae93adeed98a9861833bc3c7a3da981d9c90f",
+  "bio": "SRCC 26/27",
+  "currentPost":"CTO",
+  "pastWork":[
+    {
+    "company":"America",
+    "position":"CTO",
+    "years":"2+"
+    }
+  ],
+  "education":[
+    {
+    "school":"ITI",
+    "degree":"B.Tech",
+    "fieldOfStudy":"2015-2019"
+    }
+  ]
+}
+
+###
+GET http://localhost:9090/user/get_all_users HTTP/1.1
+Content-Type: application/json
+
+###
+GET http://localhost:9090/posts HTTP/1.1
+Content-Type: application/json
+
+###
+http://localhost:9090/get_comments?post_id=6777e638af440a38a2803b5c HTTP/1.1
+Content-Type: application/json
+
+###
+http://localhost:9090/user/getConnection_request HTTP/1.1
+Content-Type: application/json
+
+{
+      "token": "34e530288ce0d45e9d22e1a66b0251b16c114263a1cf1ecfebb0f09f8706b29d"
+}
+
+
+###
+http://localhost:9090/user/user_connection_request HTTP/1.1
+Content-Type: application/json
+
+{
+  "token": "449f3d6561d02dd4c1fb38c960b1827e337d6ad5501df627c17d7af48d768083"
+}
+
+###
+http://localhost:9090/user/download_resume?id=677678e78b63fdf0c4c97ec6 HTTP/1.1
+Content-Type: application/json

@@ -1,0 +1,268 @@
+.container{
+    background-color: black;
+    color: white;
+    height: 90vh;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-inline: 2rem;
+    height: 80vh;
+}
+.mainContainer_left{
+    flex: 0.5;
+}
+.mainContainer_right{
+    flex: 0.5;
+}
+.mainContainer_left > p:nth-child(1){
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.mainContainer_left > p:nth-child(2){
+    margin-left: 10%;
+    margin-top: 4%;
+    font-size: 1.5rem;
+}
+.mainContainer_left > div.buttonJoin{
+    margin-left: 10%;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s;
+    margin-top: 4%;
+    font-size: 1.4rem;
+    background-color: gray;
+    width: 7vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+
+}
+.introImg{
+    height: 300px;
+}
+/* I PHONE 5 */
+@media (min-width: 0px) and (max-width: 320px) {
+    .introImg{
+        display: none;
+    }
+    .main{
+        height: 90vh;
+        width: 100%;
+        padding-inline: 0;
+    }
+    .mainContainer_left{
+        flex: 0;
+    }
+    .mainContainer_right{
+        flex: 0;
+    }
+    .mainContainer_left > p:nth-child(1){
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1.3rem;
+        width: 70vw;
+    }
+    .mainContainer_left > p:nth-child(2){
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1rem;
+        width: 70vw;
+    }
+    .mainContainer_left > div.buttonJoin{
+        width: 80px;
+        height: 40px;
+        display: flex;
+        margin-left: 5%;
+        font-size: 1rem;
+    }
+}
+/* NORMAL PHONE */
+@media (min-width: 321px) and (max-width: 375px){
+
+    .introImg{
+        display: none;
+    }
+    .main{
+        height: 90vh;
+        width: 100%;
+        padding-inline: 0;
+    }
+    .mainContainer_left{
+        flex: 0;
+    }
+    .mainContainer_right{
+        flex: 0;
+    }
+    .mainContainer_left > p:nth-child(1){
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1.3rem;
+        width: 70vw;
+    }
+    .mainContainer_left > p:nth-child(2){
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1rem;
+        width: 70vw;
+    }
+    .mainContainer_left > div.buttonJoin{
+        width: 80px;
+        height: 40px;
+        display: flex;
+        margin-left: 5%;
+        font-size: 1rem;
+    }
+}
+/* I PHONE 13 ONE PLUS*/
+@media (min-width: 376px) and (max-width: 425px){
+    .introImg{
+        display: none;
+    }
+    .main{
+        height: 90vh;
+        width: 100%;
+        padding-inline: 0;
+    }
+    .mainContainer_left{
+        flex: 0;
+    }
+    .mainContainer_right{
+        flex: 0;
+    }
+    .mainContainer_left > p:nth-child(1){
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1.3rem;
+        width: 70vw;
+    }
+    .mainContainer_left > p:nth-child(2){
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1rem;
+        width: 70vw;
+    }
+    .mainContainer_left > div.buttonJoin{
+        width: 80px;
+        height: 40px;
+        display: flex;
+        margin-left: 5%;
+        font-size: 1rem;
+    }
+}
+/* I PHONE 13 MAX */
+@media (min-width: 426px) and (max-width: 767px){
+    .introImg{
+        display: none;
+    }
+    .main{
+        height: 90vh;
+        width: 100%;
+        padding-inline: 0;
+    }
+    .mainContainer_left{
+        flex: 0;
+    }
+    .mainContainer_right{
+        flex: 0;
+    }
+    .mainContainer_left > p:nth-child(1){
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1.3rem;
+        width: 70vw;
+    }
+    .mainContainer_left > p:nth-child(2){
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1rem;
+        width: 70vw;
+    }
+    .mainContainer_left > div.buttonJoin{
+        width: 80px;
+        height: 40px;
+        display: flex;
+        margin-left: 5%;
+        font-size: 1rem;
+    }
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+    .introImg{
+        height: 180px;
+        margin-left: -120px;
+    }
+    .main{
+        height: 90vh;
+        width: 100%;
+        padding-inline: 0;
+    }
+    .mainContainer_left{
+        flex: 0;
+    }
+    .mainContainer_right{
+        flex: 0;
+    }
+    .mainContainer_left > p:nth-child(1){
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1.3rem;
+        width: 70vw;
+    }
+    .mainContainer_left > p:nth-child(2){
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1rem;
+        width: 70vw;
+    }
+    .mainContainer_left > div.buttonJoin{
+        width: 80px;
+        height: 40px;
+        display: flex;
+        margin-left: 5%;
+        font-size: 1rem;
+    }
+}
+/*Foldable Mobile*/
+@media (min-width: 1024px) and (max-width: 1439px){
+    .introImg{
+        height: 180px;
+        margin-left: -120px;
+    }
+    .main{
+        height: 90vh;
+        width: 100%;
+        padding-inline: 0;
+    }
+    .mainContainer_left{
+        flex: 0;
+    }
+    .mainContainer_right{
+        flex: 0;
+    }
+    .mainContainer_left > p:nth-child(1){
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 2rem;
+        width: 50vw;
+    }
+    .mainContainer_left > p:nth-child(2){
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 2rem;
+        width: 40vw;
+    }
+    .mainContainer_left > div.buttonJoin{
+        width: 80px;
+        height: 40px;
+        display: flex;
+        margin-left: 5%;
+        font-size: 1rem;
+        margin-top: 5%;
+    }
+}

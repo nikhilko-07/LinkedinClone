@@ -1,0 +1,106 @@
+.container{
+    background: black;
+    color: white;
+    height: 80vh;
+}
+.allUserProfile{
+    max-width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.userCard{
+    cursor: pointer;
+    margin-left: 2.5%;
+    border: 2px solid dimgrey;
+    border-radius: 0.5rem;
+    height:6rem;
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    padding-inline: 1.3rem;
+}
+.userCard_img{
+    height: 70%;
+    width: 8%;
+    border-radius: 100%;
+}
+/* I PHONE 5 */
+@media (min-width: 0px) and (max-width: 320px) {
+    .allUserProfile{
+        margin-left: 2%;
+        height: 20%;
+        width: 100%;
+    }
+    .userCard_img{
+        height: 45px;
+        width: 45px;
+        object-fit: cover;
+    }
+}
+/* NORMAL PHONE */
+@media (min-width: 321px) and (max-width: 375px){
+    .allUserProfile{
+        margin-left: 2%;
+        height: 20%;
+        width: 100%;
+    }
+    .userCard_img{
+        height: 45px;
+        width: 45px;
+        object-fit: cover;
+    }
+}
+/* I PHONE 13 ONE PLUS*/
+@media (min-width: 376px) and (max-width: 425px){
+    .allUserProfile{
+        margin-left: 2%;
+        height: 20%;
+        width: 100%;
+    }
+    .userCard_img{
+        height: 45px;
+        width: 45px;
+        object-fit: cover;
+    }
+}
+/* I PHONE 13 MAX */
+@media (min-width: 426px) and (max-width: 767px) {
+    .allUserProfile{
+        margin-left: 2%;
+        height: 15%;
+        width: 100%;
+    }
+    .userCard_img{
+        height: 50px;
+        width:  50px;
+        object-fit: cover;
+    }
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+    .allUserProfile{
+        margin-left: 2%;
+        height: 15%;
+        width: 100%;
+    }
+    .userCard_img{
+        height: 60px;
+        width:  60px;
+        object-fit: cover;
+    }
+}
+/*Foldable Mobile*/
+@media (min-width: 1024px) and (max-width: 1439px){
+    .allUserProfile{
+        margin-left: 2%;
+        height: 15%;
+        width: 100%;
+    }
+    .userCard_img{
+        height: 60px;
+        width:  60px;
+        object-fit: cover;
+    }
+}

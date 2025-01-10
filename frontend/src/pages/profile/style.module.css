@@ -1,0 +1,187 @@
+.name{
+    background: black;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+}
+.username{
+    background: black;
+    color: white;
+    border: none;
+    margin-top: 0.5%;
+    font-size: 1.5rem;
+}
+.bio{
+    background: black;
+    color: white;
+    border: none;
+    margin-top: 2%;
+    font-size: 1rem;
+}
+.update{
+    border: 1px solid dimgrey;
+    width: 10%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    border-radius: 15px;
+}
+.addWork{
+    border: 1px solid dimgrey;
+    width: 10%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    border-radius: 15px;
+    background: black;
+    color: white;
+    font-size: 1.1rem;
+}
+.commentContainer > div {
+    border: 1px solid white;
+    background: black;
+    width: 700px;
+}
+.commentContainer > div > input {
+    height: 40px;
+    margin-left: 2%;
+    font-size: 1rem;
+}
+.workBtn{
+    border: 1px solid dimgrey;
+    width: 15%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    border-radius: 15px;
+    background: black;
+    color: white;
+    font-size: 1.1rem;
+}
+/* I PHONE 5 */
+@media (min-width: 0px) and (max-width: 320px){
+    .name{
+        color: white;
+        margin-top: -20%;
+    }
+    .addWork{
+        height: 50px;
+        width: 80px;
+        margin-top: 3%;
+        padding: 1%;
+        font-size: 1rem;
+    }
+    .commentContainer > div {
+        border: 1px solid white;
+        background: black;
+        width: 300px;
+    }
+    .workBtn{
+        height: 50px;
+        width: 80px;
+        margin-top: 3%;
+    }
+
+}
+/* NORMAL PHONE */
+@media (min-width: 321px) and (max-width: 375px){
+    .name{
+        color: white;
+        margin-top: -20%;
+    }
+    .addWork{
+        height: 50px;
+        width: 80px;
+        margin-top: 3%;
+        padding: 1%;
+        font-size: 1rem;
+    }
+    .commentContainer > div {
+        border: 1px solid white;
+        background: black;
+        width: 300px;
+    }
+    .workBtn{
+        height: 50px;
+        width: 80px;
+        margin-top: 3%;
+    }
+}
+/* I PHONE 13 ONE PLUS*/
+@media (min-width: 376px) and (max-width: 425px){
+    .name{
+        color: white;
+        margin-top: -20%;
+    }
+    .addWork{
+        height: 50px;
+        width:  80px;
+        margin-top: 3%;
+        padding: 1%;
+        font-size: 1rem;
+    }
+    .commentContainer > div {
+        border: 1px solid white;
+        background: black;
+        width: 300px;
+    }
+    .workBtn{
+        height: 50px;
+        width: 80px;
+        margin-top: 3%;
+    }
+}
+/* I PHONE 13 MAX */
+@media (min-width: 426px) and (max-width: 767px) {
+    .name{
+        color: white;
+        margin-top: -20%;
+    }
+    .addWork{
+        height: 50px;
+        width:  80px;
+        margin-top: 3%;
+        padding: 1%;
+        font-size: 1rem;
+    }
+    .commentContainer > div {
+        border: 1px solid white;
+        background: black;
+        width: 300px;
+    }
+    .workBtn{
+        height: 50px;
+        width: 80px;
+        margin-top: 3%;
+    }
+}
+/*Foldable Mobile*/
+@media (min-width: 1024px) and (max-width: 1439px){
+    .name{
+        color: white;
+        margin-top: -20%;
+    }
+    .addWork{
+        height: 50px;
+        width:  80px;
+        margin-top: 3%;
+        padding: 1%;
+        font-size: 1rem;
+    }
+    .commentContainer > div {
+        border: 1px solid white;
+        background: black;
+        width: 300px;
+    }
+    .workBtn{
+        height: 50px;
+        width: 80px;
+        margin-top: 3%;
+    }
+}

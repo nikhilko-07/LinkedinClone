@@ -1,0 +1,39 @@
+.container{
+    height: 80vh;
+
+}
+.userCard{
+    border: 2px solid dimgrey;
+    margin-top: 5%;
+    padding: 2%;
+    margin-left: 2%;
+    width: 60%;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+.CardWrapper{
+    display: flex;
+}
+.profilePicture{
+    margin-right: 5%;
+}
+.profilePicture > img{
+    border-radius: 100%;
+    width:  60px;
+    height: 60px;
+    border: 2px solid white;
+}
+.acceptBtn{
+    border: 1px solid white;
+    width: 80px;
+    margin-left: 5%;
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+.networkHeader{
+    border-top: 2px solid white;
+}

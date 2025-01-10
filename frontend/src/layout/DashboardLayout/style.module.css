@@ -1,0 +1,183 @@
+.homeContainer {
+    display: flex;
+    background: black;
+    color: white;
+}
+.homeContainer > div:nth-child(odd) {
+    flex: 0.2;
+}
+.homeContainer > div:nth-child(even) {
+    flex: 0.6;
+}
+.homeContainer_leftBar{
+    display: flex;
+    gap: 1.2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 90vh;
+    position: sticky;
+    background: black;
+    color: white;
+
+}
+.leftBarOption{
+    position: fixed;
+    top: 150px;
+}
+.sideBarOption{
+    padding-top:0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 1.4rem;
+    gap: 1.3rem ;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    cursor: pointer;
+
+    transition: all 0.2s;
+}
+.sideBarOption:hover{
+    transform: scale(1.04);
+}
+.sideBarOption > svg {
+    height: 1.4em;
+}
+.homeContainer_extraContainer{
+    padding-top: 5vh;
+}
+.homeContanier_feedContainer{
+    border-left: 1px solid white;
+}
+
+/* I PHONE 5 */
+@media (min-width: 0px) and (max-width: 320px) {
+    .homeContainer > div:nth-child(odd) {
+        flex: 0.1;
+    }
+    .homeContainer > div:nth-child(even) {
+        flex: 0.9;
+    }
+    .homeContainer_extraContainer{
+        display: none;
+    }
+    .connection, .home, .discover{
+        display: none;
+    }
+    .homeContainer_leftBar{
+        display: block;
+    }
+    .sideBarOption{
+        padding-left: 0rem;
+    }
+    .homeContanier_feedContainer{
+        border-left: 1px solid white;
+    }
+}
+
+/* NORMAL PHONE */
+@media (min-width: 321px) and (max-width: 375px){
+    .homeContainer > div:nth-child(odd) {
+        flex: 0.1;
+    }
+    .homeContainer > div:nth-child(even) {
+        flex: 0.9;
+    }
+    .homeContainer_extraContainer{
+        display: none;
+    }
+    .connection, .home, .discover{
+        display: none;
+    }
+    .homeContainer_leftBar{
+        display: block;
+    }
+    .sideBarOption{
+        padding-left: 0.1rem;
+    }
+}
+
+/* I PHONE 13 ONE PLUS*/
+@media (min-width: 376px) and (max-width: 425px){
+    .homeContainer > div:nth-child(odd) {
+        flex: 0.1;
+    }
+    .homeContainer > div:nth-child(even) {
+        flex: 0.9;
+    }
+    .homeContainer_extraContainer{
+        display: none;
+    }
+    .connection, .home, .discover{
+        display: none;
+    }
+    .homeContainer_leftBar{
+        display: block;
+    }
+    .sideBarOption{
+        padding-left: 0.3rem;
+    }
+}
+
+/* I PHONE 13 MAX */
+@media (min-width: 426px) and (max-width: 767px) {
+    .homeContainer > div:nth-child(odd) {
+        flex: 0.1;
+    }
+    .homeContainer > div:nth-child(even) {
+        flex: 0.9;
+    }
+    .homeContainer_extraContainer{
+        display: none;
+    }
+    .connection, .home, .discover{
+        display: none;
+    }
+    .homeContainer_leftBar{
+        display: block;
+    }
+    .sideBarOption{
+        padding-left: 0.3rem;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+    .homeContainer > div:nth-child(odd) {
+        flex: 0.1;
+    }
+    .homeContainer > div:nth-child(even) {
+        flex: 0.9;
+    }
+    .homeContainer_extraContainer{
+        display: none;
+    }
+    .connection, .home, .discover{
+        display: none;
+    }
+    .homeContainer_leftBar{
+        display: block;
+    }
+    .sideBarOption{
+        padding-left: 1.5rem;
+    }
+}
+
+/*Foldable Mobile*/
+@media (min-width: 1024px) and (max-width: 1439px){
+    .homeContainer > div:nth-child(odd) {
+        flex: 0.3;
+    }
+    .homeContainer > div:nth-child(even) {
+        flex: 0.7;
+    }
+
+    .homeContainer_leftBar{
+        display: block;
+    }
+    .sideBarOption{
+        padding-left: 1.5rem;
+    }
+}
