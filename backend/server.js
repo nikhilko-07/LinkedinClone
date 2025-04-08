@@ -16,7 +16,7 @@ app.use(express.static("uploads"));
 
 const start = async () => {
   const connectDB = await mongoose.connect(
-    "mongodb+srv://nikhilko07:2407@cluster0.o5ohf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "MONGO_URL"
   );
   app.listen(9090,()=>{
     console.log("server is running on 9090")
