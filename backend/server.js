@@ -15,21 +15,14 @@ app.use(express.static("uploads"));
 const start = async () => {
   try {
     await mongoose.connect(
-      "mongodb+srv://nikhil:nikhil123@cluster0.o5ohf.mongodb.net/mydb?retryWrites=true&w=majority&appName=Cluster0",
-      {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-      }
+      "mongodb+srv://nikhil:nikhil%40123@cluster0.o5ohf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     );
-    console.log("✅ MongoDB connected");
-
+    console.log("Database connected successfully ✅");
     app.listen(9090, () => {
-      console.log("🚀 Server is running on port 9090");
+      console.log("Server is running on port 9090 🚀");
     });
   } catch (error) {
-    console.error("❌ Database connection failed", error);
-    process.exit(1);
+    console.error("Database connection failed ❌", error);
   }
 };
-
 start();
